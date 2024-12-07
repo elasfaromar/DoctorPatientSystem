@@ -8,8 +8,8 @@ DROP TABLE IF EXISTS Patient_Allergies;
 CREATE TABLE Patients (
     PIN INTEGER PRIMARY KEY,            -- Unique Patient Identification Number
     FirstName TEXT NOT NULL,
-    LastName TEXT NOT NULL,
     MiddleName TEXT,
+    LastName TEXT NOT NULL,
     DateOfBirth DATE NOT NULL,
     Gender TEXT NOT NULL,
     Phone TEXT NOT NULL,
@@ -117,7 +117,6 @@ INSERT INTO Allergies (AllergyName) VALUES
     ('Zabofloxacin'),
     ('Difloxacin'),
     ('Garenoxacin');
-
 
 INSERT INTO Patients (FirstName, MiddleName, LastName, DateOfBirth, Gender, Phone, Address) VALUES
     ('John', 'Doe', 'Smith', '1990-01-01', 'Male', '123-456-7890', '123 Main St'),
