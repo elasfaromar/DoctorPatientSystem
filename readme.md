@@ -8,9 +8,6 @@ This project is a simple Doctor-Patient management system that allows users to s
 - Generate reports listing all patients, conditions, or allergies.
 - You can find the sqlite database file at `records.db`
 
-## Demo
-Watch the demo video here: https://youtu.be/6HirS87ro5Y
-
 ## Setup
 1. Ensure you have Python and SQLite installed.
 2. Execute `main.py` to start the application.
