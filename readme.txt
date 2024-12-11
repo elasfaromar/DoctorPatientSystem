@@ -6,6 +6,7 @@ This project is a simple Doctor-Patient management system that allows users to s
 - Search for patients by first name, last name, date of birth, or phone number.
 - View detailed information about a patient, including their conditions and allergies.
 - Generate reports listing all patients, conditions, or allergies.
+- You can find the sqlite database file at `records.db`
 
 ## Demo
 Watch the demo video here: https://youtu.be/6HirS87ro5Y
